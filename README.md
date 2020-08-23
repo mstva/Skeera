@@ -6,7 +6,7 @@ Android App for Keeping Score of Popular Sports Games
 - Android Studio
 
 #### Installing and Running:
-- Clone the repo: ``
+- Clone the repo: `git clone https://github.com/mstva/Skeera.git`
 - Open the project in Android Studio
 - Build and Run
 
