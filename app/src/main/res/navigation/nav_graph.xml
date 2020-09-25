@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="tech.mstava.skeera.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="tech.mstava.skeera.ui.bottomnav.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
+    <fragment
+        android:id="@+id/addTeamFragment"
+        android:name="tech.mstava.skeera.ui.bottomnav.AddTeamFragment"
+        android:label="fragment_add_team"
+        tools:layout="@layout/fragment_add_team" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="tech.mstava.skeera.ui.bottomnav.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="tech.mstava.skeera.ui.bottomnav.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
