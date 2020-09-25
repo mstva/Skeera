@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/score_games">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/football_game"
+                    android:icon="@drawable/ic_football"
+                    android:title="@string/football" />
+
+                <item
+                    android:id="@+id/volleyball_game"
+                    android:icon="@drawable/ic_volleyball"
+                    android:title="@string/volleyball" />
+
+                <item
+                    android:id="@+id/tennis_game"
+                    android:icon="@drawable/ic_tennis"
+                    android:title="@string/tennis" />
+
+                <item
+                    android:id="@+id/squash_game"
+                    android:icon="@drawable/squash"
+                    android:title="@string/squash" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/actions">
+        <menu>
+
+            <item
+                android:id="@+id/home_action"
+                android:checked="false"
+                android:icon="@drawable/ic_home"
+                android:title="@string/home" />
+
+            <item
+                android:id="@+id/setting_action"
+                android:icon="@drawable/ic_setting"
+                android:title="@string/settings" />
+
+            <item
+                android:id="@+id/profile_action"
+                android:icon="@drawable/ic_profile"
+                android:title="@string/profile" />
+
+            <item
+                android:iconTint="@android:color/holo_red_light"
+                android:id="@+id/rate_action"
+                android:icon="@drawable/ic_rate"
+                android:title="@string/rate_us" />
+
+            <item
+                android:id="@+id/about_action"
+                android:icon="@drawable/ic_about"
+                android:title="@string/about" />
+
+        </menu>
+    </item>
+
+</menu>
